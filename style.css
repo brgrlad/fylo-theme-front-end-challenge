@@ -51,6 +51,13 @@ h1 {
     font-size: .9rem;
 }
 
+
+
+footer {
+    margin-top: -20px;
+    
+}
+
 /* .jumbotron {
     background-image: url(images/bg-curvy-desktop.svg);
     background-size: cover;
@@ -139,8 +146,38 @@ a {
 }
 
 .mynewsletter {
-    max-width: 700px;
+    max-width: 650px;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 10px 10px 1px hsla(237, 33%, 13%, 0.418);
+    
 }
+
+.myformwrapper {
+    display: block;
+    
+}
+
+
+
+
+.myz {
+    position: absolute;
+    
+}
+
+footer {
+    margin-top: -100px;
+    /* background-color: hsl(217, 29%, 9%); */
+    /* background-color: hsl(140, 63%, 39%); */
+    
+}
+
+.logofooter {
+    padding-top: 120px;
+}
+
+
+
 
 
 
@@ -148,13 +185,31 @@ a {
 
 @media (min-width: 576px) { 
 
+
+
    
     
 
  }
 
+
+
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+
+    .myformwrapper {
+        display: flex;
+    }
+    
+    .myformwrapper .btn {
+        max-width: 35%;
+        
+    
+    }
+
+    .logofooter {
+        padding-top: 80px;
+    }
 
 
 
@@ -162,6 +217,7 @@ a {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
     .mybox1 {
         margin-right: 200px;
         line-height: 1.5rem;
