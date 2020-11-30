@@ -1,14 +1,8 @@
 body {
-    /* background-color: hsl(218, 28%, 13%); */
-    /* background-color: #181f2b; */
-
     background-image:url(images/bg-curvy-desktop.svg), linear-gradient(#181f2bf5 5%, #181f2b 30%);
-    
-    
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50% 20%;
-    
     color: rgba(255, 255, 255, 0.904);
     font-family: 'Open Sans', sans-serif;  
 
@@ -18,6 +12,17 @@ body {
 }
 
 
+
+
+/* this is being used in order to eliminate the white gap on the right side of the screen that appears on on mobile/tablet view*/
+.row {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+
+
+/*  ---------- nav bar -------------- */
 
 .navbar {
     font-family: 'Raleway', sans-serif;
@@ -41,6 +46,9 @@ body {
 
 }
 
+
+/* ----- text style ----- */
+
 h1 {    
     font-size: 1.6rem;
     font-weight: bold;
@@ -53,15 +61,19 @@ h1 {
 
 
 
-footer {
-    margin-top: -20px;
-    
+
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+
 }
 
-/* .jumbotron {
-    background-image: url(images/bg-curvy-desktop.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+
+/* footer {
+    margin-top: -20px;
+    
 } */
 
 
@@ -100,6 +112,7 @@ a {
     color: white;
 }
 
+
 .mybox1 a:hover{
     color: #65e2d9;
     text-decoration: none;
@@ -107,11 +120,12 @@ a {
     
 }
 
+
 .quotes .card{
     font-size: .9rem;
     margin-top: 120px;
     background-color: hsl(219, 30%, 18%);
-    /* border: rgba(250, 39, 250, 0.219) solid; */
+   
     
 }
 
@@ -165,17 +179,43 @@ a {
     
 }
 
-footer {
+footer{
     margin-top: -100px;
-    /* background-color: hsl(217, 29%, 9%); */
-    /* background-color: hsl(140, 63%, 39%); */
+    background-color: hsl(217, 29%, 9%);
+    font-size: 14px; 
+    
+        
     
 }
 
-.logofooter {
-    padding-top: 120px;
+footer p{
+    margin-bottom: 10px;
 }
 
+
+
+
+.myicons {
+    fill: white;
+}
+
+.myicons:hover{
+    fill: #65e2d9;
+    transition: .8s;
+}
+
+
+
+
+.nav-link {
+    padding: .4rem 0;
+}
+
+.nav-link:hover{
+    color: #65e2d9;
+    transition: .5s;
+    
+}
 
 
 
