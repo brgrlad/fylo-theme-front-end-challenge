@@ -13,12 +13,25 @@ body {
 
 
 
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+
+
+
 
 /* this is being used in order to eliminate the white gap on the right side of the screen that appears on on mobile/tablet view*/
 .row {
-    padding-right: 0px;
+    
     margin-right: 0px;
+    margin-left: 0px;
+
+    
 }
+
 
 
 
@@ -47,7 +60,7 @@ body {
 }
 
 
-/* ----- text style ----- */
+
 
 h1 {    
     font-size: 1.6rem;
@@ -70,11 +83,6 @@ h1 {
 }
 
 
-
-/* footer {
-    margin-top: -20px;
-    
-} */
 
 
 .btn-primary {
@@ -119,6 +127,8 @@ a {
     transition: .5s;
     
 }
+
+
 
 
 .quotes .card{
@@ -176,6 +186,7 @@ a {
 
 .myz {
     position: absolute;
+    z-index: -1;
     
 }
 
@@ -194,9 +205,10 @@ footer p{
 
 
 
-
 .myicons {
     fill: white;
+    
+    
 }
 
 .myicons:hover{
@@ -227,6 +239,9 @@ footer p{
 
 
 
+
+
+
    
     
 
@@ -251,6 +266,11 @@ footer p{
         padding-top: 80px;
     }
 
+    .quotes {
+        padding-bottom: 80px;
+    }
+
+
 
 
  }
@@ -259,7 +279,8 @@ footer p{
 @media (min-width: 992px) { 
 
     .mybox1 {
-        margin-right: 200px;
+        max-width: 550px;
+        /* padding-right: 10px; */
         line-height: 1.5rem;
     }
 
